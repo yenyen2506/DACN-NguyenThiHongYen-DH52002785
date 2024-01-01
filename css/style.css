@@ -1,0 +1,518 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper_chitiet {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hinhanh_sanpham {
+    float: left;
+    width: 30%;
+}
+
+.navbar-nav {
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.chitiet_sanpham {
+    float: left;
+    width: 55%;
+    margin: 0 10px;
+}
+
+input.themgiohang {
+    border: none;
+    background: brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+i.fa.fa-plus.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa.fa-minus.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa.fa-plus.fa-style:hover {
+    color: darkgray;
+}
+
+i.fa.fa-minus.fa-style:hover {
+    color: darkgray;
+}
+
+
+/*thung rac*/
+
+i.fa.fa-trash.fa-style {
+    font-size: xx-large;
+    color: black;
+}
+
+i.fa.fa-trash.fa-style:hover {
+    color: darkgray;
+}
+
+i.xoatatca {
+    color: black;
+}
+
+.header {
+    /* background-image: url("../images/banner4.png"); */
+    /* background-color: #000; */
+    background-repeat: no-repeat;
+    background-size: 100% 90px;
+    /* border: 1px solid #000; */
+    height: 90px;
+    width: 100%;
+}
+
+
+/* .logo{
+    height: 80%;
+    width: 10%;
+    margin-top: 20px;
+    margin-left: 10%
+} */
+
+.menu {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #AAA;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 20px;
+    /* border: 1px solid red; */
+    list-style: none;
+    margin: 0 auto;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+ul.list_menu li:hover {
+    background: rgb(218, 221, 224);
+}
+
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    padding: initial;
+    ;
+    position: relative;
+}
+
+
+/*  */
+
+ul.list_menu li {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+/* ul.list_menu a::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background: tomato;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+ul.list_menu a:hover:after{
+    width: 50%;
+    transform: translateX(100%);
+
+} */
+
+#main {
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+}
+
+.sidebar {
+    border: 1px solid #000;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: -1188px;
+    float: left;
+    box-shadow: 2px 2px 2px #AAA;
+}
+
+.dmsp {
+    background-color: #212121;
+    color: black;
+}
+
+ul.list_sidebar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* border: 1px solid red; */
+    list-style: none;
+    line-height: 20px;
+}
+
+ul.list_sidebar li:hover {
+    background: rgb(144, 151, 151);
+}
+
+ul.list_sidebar li a {
+    text-decoration: none;
+    text-align: left;
+    color: black;
+    display: block;
+}
+
+ul.list_sidebar li {
+    /* float: left; */
+    margin: 20px;
+    padding: 10px;
+}
+
+.maincontent {
+    height: auto;
+    width: 78.5%;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: right;
+}
+
+.SPMN {
+    margin-top: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.product_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 110%;
+}
+
+p.title_product {
+    text-align: center;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+p.price_product {
+    text-align: center;
+    /* color: red; */
+    font-size: x-large;
+    font-weight: bold;
+}
+
+ul.product_list li {
+    width: 21%;
+    border: 1px solid rgb(170, 170, 170);
+    margin: 10px 7px;
+    float: left;
+    /* background: #f5f5ec; */
+    height: auto;
+}
+
+ul.product_list li a {
+    text-decoration: center;
+    text-decoration: none;
+}
+
+ul.product_list li img {
+    width: 95%;
+    height: 220px;
+}
+
+
+/* ul.product_list li .product-top .product-thumb img{
+    display: block;
+}
+ul.product_list li .product-top .product-thumb{
+    di
+} */
+
+ul.product_list li .post-item {
+    position: relative;
+    overflow: hidden;
+}
+
+ul.product_list li .post-item a.buy-now {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    background-color: #446084;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    transition: 00.25s ease-in-out;
+    opacity: 0.85;
+}
+
+ul.product_list li:hover a.buy-now {
+    bottom: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul.product_list li .post-item {
+    padding: 5px;
+    border: 2px solid #f5f5f5;
+}
+
+ul.product_list li:hover .post-item {
+    border: 2px solid #948a8a;
+    transition: all 0.25s ease-in-out;
+}
+
+
+/*danh muc*/
+
+ul.product_list li .danhmuc {
+    padding: 25px;
+    border: 2px solid #f5f5f5;
+}
+
+ul.product_list li:hover .danhmuc {
+    border: 2px solid #948a8a;
+    transition: all 0.25s ease-in-out;
+}
+
+
+/* .footer{
+    border: 1px solid #000;
+    height: 150px;
+    width: 100%;
+    background: #4ddbff;
+} */
+
+
+/* p.footer_coppyright {
+    text-align: center;
+    color: black;
+} */
+
+
+/*thanh menu */
+
+i.fa fa-home.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa fa-shopping-cart.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa fa-phone.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa fa-sign-out.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa fa-user.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fa fa-user-plus.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+i.fafa fa-unlock-alt.fa-style {
+    font-size: smaller;
+    color: black;
+}
+
+
+/* 
+lien he */
+
+form#form1 {
+    margin-top: 10px;
+}
+
+
+/* chitietsanpham */
+
+img.ctsp {
+    width: 80%;
+}
+
+.dm {
+    display: inline-block;
+    text-align: center;
+}
+
+a.list-group-item.list-group-item-action.active {
+    text-align: center;
+    color: #000000;
+    background-color: rgb(155, 155, 155);
+    border-color: rgb(128, 128, 128);
+}
+
+
+/* .click{
+	background-color: red;
+} */
+
+.form_dk {
+    padding: 34px 19px;
+}
+
+
+/* baiviet */
+
+ul.baiviet {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.baiviet li {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+
+/* chitietsp */
+
+
+/* Tabs */
+
+.tabs {
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 5px 5px 5px 5px;
+}
+
+ul#tabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    overflow: auto;
+}
+
+ul#tabs-nav li {
+    float: left;
+    font-weight: bold;
+    margin-right: 2px;
+    padding: 8px 10px;
+    border-radius: 5px 5px 5px 5px;
+    /*border: 1px solid #d5d5de;
+    border-bottom: none;*/
+    cursor: pointer;
+}
+
+ul#tabs-nav li:hover,
+ul#tabs-nav li.active {
+    background-color: #AAA;
+}
+
+#tabs-nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.tab-content {
+    padding: 10px;
+    border: 3px solid #AAA;
+    background-color: #FFF;
+}
+
+img.hasp {
+    width: 100%;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.huydon {
+    opacity: 0.5;
+}
+
+img.thanhtoan {
+    float: right;
+    margin-top: -453px;
+    width: 532px;
+    margin-right: -90px;
+}
+
+
+/* header-dangnhap */
+
+.dropdown.user {
+    margin-left: 229px;
+    margin-top: 10px;
+}
+
+div#menu_right {
+    margin-left: 122px;
+    margin-top: 10px;
+}
+
+a.dnhap {
+    color: rgb(0, 0, 0);
+}
+
+a.dnhap:hover {
+    color: rgba(71, 71, 71, 0.466);
+    text-decoration: none;
+}
+
+a.dky {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+a.dky:hover {
+    color: rgba(41, 43, 44, 0.466);
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color: rgba(143, 72, 9, 0.466);
+}

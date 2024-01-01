@@ -1,0 +1,134 @@
+ul.admincp_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ul.admincp_list li {
+    float: left;
+    margin: 5px;
+}
+.clear{
+    clear: both;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: x-large;
+    color: blue;
+}
+.wrapper{
+    /* border: 1px solid #000; */
+    height: auto;
+    width:97%;
+    margin: -8px auto;
+}
+p.tongtien {
+    float: right;
+}
+
+
+
+.header{
+    /* background-image: url("../images/banner4.png"); */
+    /* background-color: #000; */
+    background-repeat: no-repeat;
+    background-size: 100% 90px;
+    /* border: 1px solid #000; */
+    height: 90px;
+    width: 100%;
+}
+
+
+.menu{
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px #AAA;
+    height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.05);
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    /* border: 1px solid red; */
+    list-style: none;
+    margin: 0 auto;
+    line-height: 20px;
+}
+ul.list_menu li:hover {
+    background: aliceblue;
+}
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    padding: initial;;
+}
+
+ul.list_menu li {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+body{
+    margin: 0px;
+}
+
+
+/* sidebar */
+.sb {
+    margin-top: 9px;
+}
+
+/* main */
+.main {
+    margin-top: 20px;
+}
+
+
+/* footer.text-center.text-lg-start.bg-light.text-muted.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+} */
+
+
+.sp {
+    width: 100%;
+   
+    padding-top: 12px;
+    padding-left: 36px;
+    /* padding-right: 9px; */
+    padding-bottom: 17px;
+}
+
+.danhmucsp{
+    width: 10%;
+}
+
+
+form {
+    background: #FCFAFA;
+    padding: 22px 42px;
+    /* width: 116%; */
+}
+
+label {
+    font-weight: 500;
+}
+
+a.huy {
+    color: red;
+    text-decoration: none;
+}
+
+a.huy :hover {
+   color: red;
+   
+}
+
+fa fa-eye{
+    color: #000;
+}
+
